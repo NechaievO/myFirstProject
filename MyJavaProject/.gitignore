@@ -1,0 +1,64 @@
+### Target directories ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Build directories ###
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+
+### VS Code ###
+.vscode/
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Gradle ###
+.gradle/
+gradle-app.setting
+
+### Logs and reports ###
+logs/
+*.log
+target/surefire-reports/
+target/failsafe-reports/
+
+### Environment ###
+.env
+
+### Dependencies ###
+.m2/repository/
+node_modules/
